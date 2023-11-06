@@ -16,7 +16,7 @@ def load():
 
     i = 0;
 
-    for row in ws.iter_rows(min_row=1, max_row=ws.max_row, min_col=1, max_col=4):
+    for row in ws.iter_rows(min_row=1, max_row=ws.max_row, min_col=1, max_col=ws.max_column):
         j = 0
 
         st_id = None
