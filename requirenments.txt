@@ -1,0 +1,4 @@
+numpy
+opencv-python
+face_recognition
+openpyxl
