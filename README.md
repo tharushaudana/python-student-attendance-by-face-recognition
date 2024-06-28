@@ -48,7 +48,7 @@ This project facilitates live student attendance using face recognition technolo
 
 6. **Sample Video**
 
-   Watch a demonstration of live recognition in ![sample.mp4](screenrecodings/sample.mp4).
+   Watch a demonstration of live recognition in ![sample.gif](screenrecodings/sample.gif).
 
 ---
 
