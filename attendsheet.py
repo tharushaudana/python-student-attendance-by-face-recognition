@@ -83,8 +83,6 @@ def find_preset_column_index(ws):
 def find_row_index_of_student(st_id, ws):
     i = 2
 
-    print(ws.max_row)
-
     for row in ws.iter_rows(min_row=2, max_row=ws.max_row, min_col=1, max_col=1, values_only=True):
         print(row[0])
         if (row[0] == st_id): return i
@@ -99,8 +97,6 @@ def mark_attempt(st_id, class_name, time_str):
 
     row = find_row_index_of_student(st_id, ws)
     col = find_preset_column_index(ws)
-
-    print(row, col)
 
     ws.cell(row, col, value="1")
     ws.cell(row, col + 1, time_str)
