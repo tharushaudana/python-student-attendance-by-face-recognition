@@ -84,7 +84,6 @@ def find_row_index_of_student(st_id, ws):
     i = 2
 
     for row in ws.iter_rows(min_row=2, max_row=ws.max_row, min_col=1, max_col=1, values_only=True):
-        print(row[0])
         if (row[0] == st_id): return i
         i = i + 1
 
